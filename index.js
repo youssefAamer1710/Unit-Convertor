@@ -42,4 +42,5 @@ convBtn.addEventListener("click", function () {
 `;
 
 	results.innerHTML = content;
+	input.value = 0;
 });
