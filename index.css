@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	text-align: center;
+}
+
+.container {
+	color: #fff;
+	text-align: center;
+}
+
+.main {
+	background: #6943ff;
+	padding: 15px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+#input {
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	height: 80px;
+	text-align: center;
+	border-radius: 5px;
+	border: 2px solid #b295ff;
+	font-size: 30px;
+}
+
+#conv-btn {
+	margin: 20px 0;
+	padding: 9px 25px;
+	border-radius: 5px;
+	border: 2px solid #b295ff;
+}
+
+#results {
+	background: #1f2937;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.converted {
+	border-radius: 8px;
+	background: #273549;
+	margin: 10px;
+}
+
+.converted h2 {
+	color: #ccc1ff;
+}
